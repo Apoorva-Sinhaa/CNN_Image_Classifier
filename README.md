@@ -1,21 +1,29 @@
-# CIFAR-10 CNN Classifier
+# CIFAR-10 CNN Image Classifier
 
-A small PyTorch project where a Convolutional Neural Network is trained to recognize objects in the CIFAR-10 dataset.
+A Python project that uses a Convolutional Neural Network (CNN) to classify images into predefined object categories.
 
-The goal of this project is to understand how CNNs work on real RGB images and how model performance changes compared to simpler datasets like MNIST.
-
----
-
-## What this project covers
-
-- Working with color image data (3-channel inputs)
-- Building and training a basic CNN architecture
-- Using convolution, pooling, and fully connected layers
-- Evaluating predictions and inspecting incorrect classifications
+The model is trained on the CIFAR-10 dataset and learns to recognize common objects such as vehicles and animals from color images.
 
 ---
 
-## Tools and Libraries
+## What this project does
+
+- Trains a CNN to classify images into 10 object classes
+- Processes RGB images using convolution and pooling layers
+- Predicts the most likely object category for each image
+- Visualizes model predictions to understand correct and incorrect classifications
+
+---
+
+## Why this project
+
+This project was built to understand how CNNs extract visual features from images and how object classification works on real-world color image datasets.
+
+It also explores the differences in model behavior between simpler datasets and more complex image data.
+
+---
+
+## Tools Used
 
 - Python
 - PyTorch
@@ -24,6 +32,6 @@ The goal of this project is to understand how CNNs work on real RGB images and h
 
 ---
 
-## Purpose
+## Notes
 
-This project focuses on learning CNN behavior on a more challenging dataset rather than optimizing for maximum accuracy.
+This project focuses on learning image classification using CNNs rather than optimizing for high accuracy or production use.
